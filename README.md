@@ -1,8 +1,6 @@
-# Design and implement a custom Smart Pointer (e.g., a
-// simplified unique_ptr) that manages dynamic memory allocation and deallocation for
-// an object. Ensure it handles ownership correctly and prevents memory leaks
+### Design and implement a custom Smart Pointer simplified unique_ptr) that manages dynamic memory allocation and deallocation for an object. Ensure it handles ownership correctly and prevents memory leaks
 
-## Purpose of the Code
+### Purpose of the Code
 
 This code defines and uses a custom smart pointer class `UniqueArrayPtr` that manages dynamic memory allocation for arrays. It wraps raw pointers and automatically deallocates memory when the smart pointer goes out of scope. This demonstrates how to manage dynamic memory safely in C++.
 
